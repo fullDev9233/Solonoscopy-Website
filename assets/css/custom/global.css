@@ -1,0 +1,605 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1rem 1.875rem;
+  color: #fff !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #fff;
+}
+
+.header-appointment-btn {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.2s;
+}
+
+.call-phone {
+  position: relative;
+  margin-right: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.2s;
+}
+
+.toggleBtnName1 {
+  display: none;
+}
+.toggleBtnName2 {
+  position: absolute;
+  margin-left: -9px;
+  left: 45%;
+  top: 5px;
+  background: transparent;
+  color: #fff;
+}
+
+.toggleCallBtn {
+  position: absolute;
+  top: -3px;
+  margin-left: -9px;
+}
+
+a {
+  color: #fff;
+}
+
+.email-icon {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.or {
+  display: none;
+}
+
+.main-container {
+  margin-top: -101px;
+}
+
+.header-section {
+  width: 100%;
+  height: 600px;
+  background-image: url('../../images/gi_header.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.header-group {
+  margin: auto;
+  padding: 0 2.5rem;
+}
+
+.header-title {
+  margin-bottom: 1.625rem;
+}
+
+.mainSection {
+  padding: 3.75rem 2.5rem;
+  z-index: 2;
+}
+
+.mississippi {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.mississippi-title {
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.Screening {
+  flex-direction: column;
+}
+
+.heart-icon {
+  margin-left: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.save-life {
+  line-height: 1.1;
+  padding: 2rem 0 4.5rem;
+}
+
+.schedule {
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(90deg, #73c6a1 0%, #76b2b3 100%);
+  padding: 2.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mask {
+  position: absolute;
+  width: 108px;
+  height: 120px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../../images/watermark.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.myths {
+  margin: 0;
+  padding: 3.75rem 2.5rem;
+  position: relative;
+  background: #f6f6f6;
+}
+
+.grid-sys {
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.myths-title {
+  text-align: center;
+  color: #453c34;
+  margin-bottom: 2.875rem;
+}
+
+.myths-subtitle {
+  margin-bottom: 1.625rem;
+}
+
+.single-myth {
+  margin-bottom: 3.75rem;
+}
+
+.p-th {
+  margin-bottom: 1.625rem !important;
+}
+
+.myth-fact-image {
+  max-width: 25rem;
+  margin: 0 auto 3.75rem;
+}
+
+.stories {
+  margin: 3.75rem 2.5rem 2.5rem;
+}
+
+.stories-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.stories-title {
+  margin-bottom: 1.5rem;
+}
+
+.stories-content {
+  margin-bottom: 1.625rem !important;
+}
+
+.testimonial {
+  align-items: center;
+  padding: 0 0.625rem;
+  text-align: center;
+}
+
+.stars {
+  width: 11.25rem;
+  margin: 0 auto 1.5rem;
+}
+
+.testimonial-content {
+  margin-bottom: 2.5rem !important;
+}
+.banner {
+  max-width: 53rem;
+  margin-bottom: 1.25rem;
+  padding: 0;
+  overflow: visible;
+  display: block;
+  clear: none;
+}
+.schedule-content {
+  max-width: 36.5rem;
+  margin: 0 !important;
+}
+
+#carouselId {
+  padding: 0;
+}
+
+.carousel-img {
+  height: 280px;
+  right: 0;
+  left: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  bottom: -4.75rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 50%;
+  background-color: #73c6a1 !important;
+}
+
+.carousel-control-next {
+  right: -1.8rem;
+  width: auto;
+}
+
+.carousel-control-prev {
+  left: -1.8rem;
+  width: auto;
+}
+
+.carousel-control-next-icon {
+  width: 0;
+  height: 0;
+  border-top: 0.625rem solid transparent;
+  border-bottom: 0.625rem solid transparent;
+  border-left: 1rem solid #887766;
+}
+
+.carousel-control-prev-icon {
+  width: 0;
+  height: 0;
+  border-top: 0.625rem solid transparent;
+  border-bottom: 0.625rem solid transparent;
+  border-right: 1rem solid #887766;
+}
+
+.toggle-show-1 {
+  margin-bottom: 4rem;
+}
+
+.toggle-show-2 {
+  display: none;
+}
+
+.about {
+  margin: 0;
+  padding: 10.625rem 2.5rem;
+  background: #f8f7f5;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+}
+
+.about-title {
+  margin-bottom: 1.25rem !important;
+}
+
+.about-content {
+  margin-bottom: 1.625rem !important;
+}
+
+.about-img {
+  margin-bottom: 2.5rem;
+}
+
+.highlight-link {
+  color: #73c6a1;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #887766;
+}
+
+.appointment-btn {
+  margin-top: 1.75rem;
+  padding: 1.3125rem 2.125rem;
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+  font-size: 1.125rem;
+  line-height: 1rem;
+  color: white;
+  background-color: #73c6a1;
+  border: 2px solid #73c6a1;
+  border-radius: 3px;
+}
+.modal {
+  background-color: rgba(115, 198, 161, 0.8);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-body {
+  margin-top: 3.125rem;
+  flex: none;
+}
+.modal-title {
+  position: absolute;
+  left: 25%;
+  top: 2.5rem;
+}
+.modal-dialog {
+  max-width: 37.5rem;
+  margin: 0;
+}
+.modal-content {
+  width: 100%;
+  height: 100vh;
+}
+.col-form-label:after {
+  content: '*';
+  margin-left: 0.25rem;
+  color: #e24c4c;
+}
+.col-form-label-question {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+}
+.modal-footer {
+  border-top: none;
+}
+.submit-btn {
+  margin: auto;
+}
+.schedule-btn {
+  max-width: 250px;
+  margin: 0 !important;
+  color: #73c6a1;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.footer {
+  padding: 2.5rem 2.5rem 7.5rem;
+  background: #213846;
+  position: relative;
+  text-align: center;
+}
+.sources {
+  margin: 3rem 0;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.copyright {
+  opacity: 0.8;
+}
+
+.made-by-idd {
+  margin-top: 2rem;
+}
+
+.made-by-idd svg {
+  height: 1.25rem;
+  position: relative;
+  top: -0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-text {
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .mississippi-colon-cancer {
+    width: 70%;
+  }
+
+  .grid-sys {
+    width: 80%;
+  }
+
+  .carousel-img {
+    height: 230px;
+  }
+
+  .carousel-control-next {
+    right: -2rem;
+  }
+
+  .carousel-control-prev {
+    left: -2rem;
+  }
+  .testimonial {
+    width: 90%;
+  }
+}
+
+@media (min-width: 620px) {
+  .modal-dialog {
+    margin: 1.75rem auto;
+  }
+  .modal-content {
+    padding: 0 1.875rem;
+    width: 37.5rem;
+    height: 41.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mississippi-colon-cancer {
+    width: 60%;
+  }
+  .carousel-img {
+    height: 180px;
+  }
+  .testimonial {
+    width: 80%;
+  }
+  .about-img {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .call-phone {
+    position: relative;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: transparent !important;
+    border: none !important;
+    transition: background-color 0.2s;
+    color: #fff;
+  }
+  .call-phone:hover {
+    color: #73c6a1;
+  }
+  .or {
+    display: block;
+  }
+  .header-appointment-btn {
+    width: 200px;
+    margin: auto;
+    padding: 0.625rem 1.625rem;
+    background: transparent;
+    font-size: 0.875rem;
+    line-height: 1;
+    font-family: acumin-pro-extra-condensed;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .header-appointment-btn:hover {
+    background: #73c6a1;
+    border: 2px solid #73c6a1;
+  }
+  .toggleBtnName1 {
+    display: block;
+  }
+  .toggleBtnName2 {
+    display: none;
+  }
+  .toggleCallBtn {
+    display: none;
+  }
+  .header-group {
+    padding: 0;
+    width: 80%;
+  }
+  .the-news {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mississippi {
+    margin-top: -2.5rem;
+    padding: 3.125rem 2.5rem;
+  }
+  .Screening {
+    flex-direction: row-reverse;
+  }
+  .header-section {
+    height: 800px;
+  }
+  .mainSection {
+    padding: 0;
+  }
+  .mississippi-colon-cancer {
+    width: 100%;
+  }
+  .mississippi-title {
+    text-align: left;
+  }
+  .toggle-show-1 {
+    display: none;
+  }
+  .toggle-show-2 {
+    display: flex;
+  }
+  .grid-sys {
+    width: 95%;
+  }
+  .col-px {
+    padding: 0 0.625rem;
+  }
+  .myths-title-section {
+    max-width: 40rem;
+  }
+  .myths-title {
+    margin-bottom: 3.5rem;
+  }
+  .myths-subtitle {
+    margin-bottom: 5rem;
+  }
+  .stars {
+    margin: 0 0 1.5rem;
+  }
+  .testimonial-content {
+    margin-bottom: 1.5rem !important;
+  }
+  .testimonial {
+    margin-bottom: 6.625rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .mask {
+    top: 10px;
+    left: 20px;
+    transform: none;
+  }
+  .about-col {
+    padding: 0 1.5rem;
+  }
+  .appointment-btn {
+    margin-top: 2.25rem;
+  }
+  .submit-btn {
+    margin-top: 0;
+  }
+  .schedule {
+    flex-direction: row;
+  }
+  .banner {
+    margin: 0;
+  }
+  .sources {
+    text-align: left;
+    margin: 3rem auto;
+    width: 86%;
+  }
+  .about {
+    padding: 10.625rem 7.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-sys {
+    width: 90%;
+  }
+  .sources {
+    width: 75%;
+  }
+  .about {
+    padding: 10.625rem 12.5rem;
+  }
+}

@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Solonoscopy</title>
+
+  <link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/custom/global.css" rel="stylesheet">
+  <link href="./assets/css/custom/brand.css" rel="stylesheet">
+
+  <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/vbg-logo-white.png" alt="Logo" width="200" height="56"
+            class="d-inline-block align-text-top" id="logoImage">
+        </a>
+
+        <div class="d-flex">
+          <a class="nav-link call-phone" href="tel:6013608222">
+            <span class="toggleBtnName1">Call 601-360-8222</span>
+            <span class="toggleCallBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" class="bi bi-telephone"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg>
+            </span>
+          </a>
+          <span class="navbar-text or">
+            OR
+          </span>
+          <a type="button" class="nav-link header-appointment-btn" href="#" data-bs-toggle="modal"
+            data-bs-target="#appointModal" data-bs-whatever="@mdo">
+            <span class="toggleBtnName1">Request Appointment</span>
+            <span class="toggleBtnName2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <div class="d-flex header-section">
+        <div class="header-group">
+          <h2>Colonoscopy:</h2>
+          <h1 class="header-title">Screen. Detect. Prevent.</h1>
+          <p>If you’re over 50, it’s time for you to take control of your health. Schedule your screening colonoscopy
+            today to detect or even prevent colon cancer.</p>
+          <button type="button" class="appointment-btn" data-bs-toggle="modal" data-bs-target="#appointModal"
+            data-bs-whatever="@mdo">
+            Request Appointment
+          </button>
+        </div>
+      </div>
+
+      <div class="mainSection">
+        <div class="the-news">
+          <div class="row align-items-center mississippi">
+            <div class="d-flex justify-content-center col-12 col-lg-4">
+              <img src="./assets/images/mississippi-colon-cancer.svg" alt="Mississippi" width="100%"
+                class="mississippi-colon-cancer">
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="mississippi-title">
+                <div class="line1">
+                  <strong class="text-uppercase color-heart">Colon Cancer</strong> is the
+                </div>
+                <div class="color-heart line2">2nd Deadliest Cancer</div>
+                <div class="fw-bold text-uppercase line1">in Mississippi</div>
+              </div>
+              <p class="p-about p-th">With proper screening, it’s estimated that 60% of those deaths could have been
+                avoided.
+                And yet,
+                <strong>40% of eligible adults in Mississippi</strong> have not gotten their screening colonoscopy.
+                That’s
+                the 5th worst screening rate in the U.S. Do you really want to be a part of that sad statistic?
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center mississippi Screening">
+            <div class="d-flex justify-content-center col-12 col-lg-4">
+              <img src="./assets/images/free-screening.svg" alt="Free" width="100%" class="mississippi-colon-cancer">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+              <div class="mississippi-title">
+                <div class="line1">Your Screening</div>
+                <div class="color-extra line2">Colonoscopy Costs You $0</div>
+              </div>
+              <p class="p-about p-th">Most insurance companies cover the costs of routine, preventive colonoscopies, so
+                there hould be <strong>no out-of-pocket cost for you.</strong> So the question is, can you afford not to
+                get a colonoscopy?
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center mississippi">
+            <div class="d-flex justify-content-center col-12 col-lg-4">
+              <img src="./assets/images/90-percent-survival-rate.svg" alt="Mississippi" width="100%"
+                class="mississippi-colon-cancer">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+              <div class="mississippi-title">
+                <div class="line1">
+                  <strong class="text-uppercase color-primary">Colon Cancer</strong> is one of
+                </div>
+                <div class="color-primary line2 large">THE MOST PREVENTABLE</div>
+                <div class="fw-bold text-uppercase line1">
+                  AND <span class="color-primary">SURVIVABLE CANCERS</span>
+                </div>
+              </div>
+              <p class="p-about p-th">
+                A colonoscopy can detect and remove polyps, to help prevent cancer from forming in the first place. If
+                colon cancer is detected early enough, it <strong>has a 90% survival rate.</strong> So why wait to get
+                screened?
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center mississippi Screening">
+            <div class="d-flex justify-content-center col-12 col-lg-4">
+              <img src="./assets/images/free-screening.svg" alt="Free" width="100%" class="mississippi-colon-cancer">
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="mississippi-title">
+                <div class="line1">Don't let</div>
+                <div class="color-extra-feature line2 huge">COLON CANCER</div>
+                <div class="fw-bold text-uppercase color-extra-feature line1">
+                  CUT YOUR LIFE SHORT
+                </div>
+              </div>
+              <p class="p-about p-th">
+                In this season of life, there is so much to treasure: Enjoying your retirement. Holding your first
+                grandchild. Walking your daughter down the aisle. Seeing your son graduate. Are you sure you want to
+                risk not being around for these moments?
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center mississippi Screening">
+            <h4 class="text-uppercase text-center color-333 save-life">
+              <strong>A colonoscopy can <span class="color-heart">save your life</span></strong><img
+                src="./assets/images/heart.svg" alt="Heart" class="heart-icon">
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center schedule">
+        <div class="mask"></div>
+        <div class="banner">
+          <p class="p-schedule schedule-content">
+            <strong>It’s not worth the wait.</strong> Schedule your screening colonoscopy today! It just might save your
+            life.
+          </p>
+        </div>
+        <button type="button" class="appointment-btn schedule-btn" data-bs-toggle="modal" data-bs-target="#appointModal"
+          data-bs-whatever="@mdo">
+          Request Appointment
+        </button>
+      </div>
+
+      <div class="myths">
+        <div class="row grid-sys">
+          <div class="d-flex flex-column align-items-center myths-title-section">
+            <h2 class="fw-bold myths-title">7 Myths About Colonoscopy</h2>
+            <h5 class="myths-subtitle"><strong>It’s not as bad as you think!</strong> Don’t let these myths about
+              colonoscopies get in the way of your pursuit of a healthy, cancer-free life.
+            </h5>
+          </div>
+
+          <div class="toggle-show-1">
+            <div class="myth-fact-image">
+              <img src="./assets/images/myth-fact.svg" alt="Fact" width="100%">
+            </div>
+            <div id="carouselId" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000000">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #1: I’m not at risk for colon cancer.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> Colon cancer is the <em>3rd most common cancer among men and women,</em>
+                      but if you
+                      catch it
+                      early, colon cancer is highly treatable and survivable. If you’re 50-75 years old, you need to get
+                      screened.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #2: I don’t need to be screened until I’m having symptoms.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> In most cases, colon cancer starts as polyps that don’t present any
+                      symptoms. If you
+                      detect and remove those polyps
+                      through routine screening,<em> you can stop colon cancer before it starts.</em>
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #3: Colonoscopies are too expensive.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> The Affordable Care Act mandates that insurance<em> cover 100% of the
+                        cost</em> of your
+                      screening colonoscopy. And polyps can often be removed during this procedure without incurring
+                      additional
+                      costs.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #4: Colonoscopies are painful.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> The procedure is relatively quick and painless. Colonoscopies last 30 to 60
+                      minutes and
+                      are performed under sedation. Recovery is quick and most patients don’t even remember their
+                      procedure.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #5: Colonoscopies are dangerous.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> Serious complications only arise in about<em> 1 in 500 colonoscopies.</em>
+                      If you
+                      compare that with the odds of actually getting colon cancer (1 in 20), it’s clear which is the
+                      higher risk to
+                      your safety.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #6: The prep is terrible.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> It’s no pina colada, but prep options have improved a lot, including our
+                      new, non-oral
+                      prep option, HyGIeaCare. At the
+                      end of the day, any prep is a small price to pay to<em> find and prevent colon cancer.</em>
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/white-bg.png" class="d-block w-100 carousel-img" alt="bg">
+                  <div class="carousel-caption">
+                    <div class="p-carousel-title">Myth #7: Other methods of screening are just as effective.</div>
+                    <p class="p-carousel">
+                      <strong>FACT:</strong> Colonoscopy has the<em> highest cancer detection rate (95%) and the highest
+                        rate of
+                        finding and removing polyps.</em> Other methods rarely detect polyps, so they can’t stop cancer
+                      from forming
+                      in the first place.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="toggle-show-2">
+            <div class="col-md-4 col-px">
+              <div class="single-myth">
+                <h6 class="text-end">Myth #1: I’m not at risk for colon cancer.</h6>
+                <p class="text-end p-about p-th">
+                  <strong>FACT:</strong> Colon cancer is the <em>3rd most common cancer among men and women,</em> but if
+                  you catch it early, colon cancer is highly treatable and survivable. If you’re 50-75 years old, you
+                  need to get screened.
+                </p>
+              </div>
+
+              <div class="single-myth">
+                <h6 class="text-end">Myth #3: Colonoscopies are too expensive.</h6>
+                <p class="text-end p-about p-th">
+                  <strong>FACT:</strong>The Affordable Care Act mandates that insurance <em>cover 100% of the cost</em>
+                  of your screening colonoscopy. And polyps can often be removed during this procedure without incurring
+                  additional costs.
+                </p>
+              </div>
+
+              <div class="single-myth">
+                <h6 class="text-end">Myth #5: Colonoscopies are dangerous.</h6>
+                <p class="text-end p-about p-th">
+                  <strong>FACT:</strong>Serious complications only arise in about <em>1 in 500 colonoscopies.</em> If
+                  you compare that with the odds of actually getting colon cancer (1 in 20), it’s clear which is the
+                  higher risk to your safety.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-px">
+              <div class="myth-fact-image">
+                <img src="./assets/images/myth-fact.svg" alt="Fact" width="100%">
+              </div>
+              <div class="single-myth">
+                <h6 class="text-center">Myth #7: Other methods of screening are just as effective.</h6>
+                <p class="text-center p-about p-th">
+                  <strong>FACT:</strong>Colonoscopy has the <em>highest cancer detection rate (95%) and the highest rate
+                    of finding and removing polyps.</em> Other methods rarely detect polyps, so they can’t stop cancer
+                  from forming in the first place.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-px">
+              <div class="single-myth">
+                <h6>Myth #2: I don’t need to be screened until I’m having symptoms.</h6>
+                <p class="p-about p-th">
+                  <strong>FACT:</strong> In most cases, colon cancer starts as polyps that don’t present any symptoms.
+                  If you detect and remove those polyps through routine screening, <em>you can stop colon cancer before
+                    it starts.</em>
+                </p>
+              </div>
+
+              <div class="single-myth">
+                <h6>Myth #4: Colonoscopies are painful.</h6>
+                <p class="p-about p-th">
+                  <strong>FACT:</strong>The procedure is relatively quick and painless. Colonoscopies last 30 to 60
+                  minutes and are performed under sedation. Recovery is quick and most patients don’t even remember
+                  their procedure.
+                </p>
+              </div>
+
+              <div class="single-myth">
+                <h6>Myth #6: The prep is terrible.</h6>
+                <p class="p-about p-th">
+                  <strong>FACT:</strong>It’s no pina colada, but prep options have improved a lot, including our new,
+                  non-oral prep option, HyGIeaCare. At the end of the day, any prep is a small price to pay to <em>find
+                    and prevent colon cancer</em>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column align-items-center stories">
+        <div class="row grid-sys">
+          <div class="stories-heading">
+            <h2 class="fw-bold color-222 stories-title">Stories From Our Patients</h2>
+            <p class="p-carousel stories-content">
+              Our main concern is your health, comfort, and well-being. Hear from our satisfied
+              patients and see why <strong class="color-primary">GI
+                Associates</strong> in <strong class="color-primary">Madison</strong> is the best, most convenient place
+              for
+              your colonoscopy.
+            </p>
+          </div>
+
+          <div class="d-flex flex-column testimonial">
+            <div class="d-flex justify-content-between stars">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+            </div>
+            <p class="p-carousel testimonial-content">
+              GI Associates very professional and made me feel very comfortable with my procedure. They are friendly all
+              the way until you are in the car headed home. I recommend them when it’s your time to have your
+              colonoscopy done. Don’t hesitate, it might save your life.
+            </p>
+            <p class="p-patient">Patient</p>
+          </div>
+
+          <div class="d-flex flex-column testimonial">
+            <div class="d-flex justify-content-between stars">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+            </div>
+            <p class="p-carousel testimonial-content">
+              GI Associates very professional and made me feel very comfortable with my procedure. They are friendly all
+              the way
+              until you are in the car headed home. I recommend them when it’s your time to have your colonoscopy done.
+              Don’t
+              hesitate, it might save your life.
+            </p>
+            <p class="p-patient">Patient</p>
+          </div>
+
+          <div class="d-flex flex-column testimonial">
+            <div class="d-flex justify-content-between stars">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+              <img src="./assets/images/star.svg">
+            </div>
+            <p class="p-carousel testimonial-content">
+              GI Associates very professional and made me feel very comfortable with my procedure. They are friendly all
+              the way
+              until you are in the car headed home. I recommend them when it’s your time to have your colonoscopy done.
+              Don’t
+              hesitate, it might save your life.
+            </p>
+            <p class="p-patient">Patient</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center schedule">
+        <div class="mask"></div>
+        <div class="banner">
+          <p class="p-schedule schedule-content">
+            <strong>It’s not worth the wait.</strong> Schedule your screening colonoscopy today! It just might save your
+            life.
+          </p>
+        </div>
+        <button type="button" class="appointment-btn schedule-btn" data-bs-toggle="modal" data-bs-target="#appointModal"
+          data-bs-whatever="@mdo">
+          Request Appointment
+        </button>
+      </div>
+
+      <div class="row justify-content-center align-items-center about">
+        <div class="col-12 col-md-6 about-col">
+          <img src="./assets/images/feature-about.jpeg" width="100%" class="about-img">
+        </div>
+        <div class="col-12 col-md-6 about-col">
+          <h3 class="about-title">About GI Associates</h3>
+          <p class="p-about about-content">
+            GI Associates is the largest gastroenterology group in Mississippi and throughout the southeast, with 350
+            employees. These physicians have a long-standing history of dealing with digestive disease management,
+            diagnostic and therapeutic endoscopy and preventative health care management. The Gastrointestinal
+            Associates Endoscopy Center provides patients a state of the art facility with the latest technology
+            combined with the highest level of service. When you have your first GI appointment with one of our doctors,
+            you will notice that the quality of care is coupled with a warm, friendly environment.
+          </p>
+          <p class="p-about">
+            <a href="https://gi.md/about-us" target="_blank" class="highlight-link">
+              Learn more about us >
+            </a>
+          </p>
+        </div>
+      </div>
+    
+      <div class="footer">
+        <h2 class="footer-title">
+          Don’t wait any longer.<br>
+          <strong>Schedule your colonoscopy today!</strong>
+        </h2>
+        <button type="button" class="appointment-btn" data-bs-toggle="modal" data-bs-target="#appointModal"
+          data-bs-whatever="@mdo">
+          Request Appointment
+        </button>
+        <div class="sources">
+          <h6 class="source-title">Source</h6>
+          <ul>
+            <li>https://cancerstatisticscenter.cancer.org/#!/state/Mississippi</li>
+            <li>https://fightcolorectalcancer.org/prevent/about-colorectal-cancer/facts-stats/</li>
+            <li>https://msdh.ms.gov/msdhsite/_static/resources/7276.pdf</li>
+            <li>
+              https://www.cancer.org/cancer/colon-rectal-cancer/detection-diagnosis-staging/screening-coverage-laws.html
+            </li>
+            <li>
+              https://www.asge.org/docs/default-source/education/practice_guidelines/doc-56321364-c4d8-4742-8158-55b6bef2a568.pdf
+            </li>
+            <li>https://seer.cancer.gov/statfacts/html/colorect.html</li>
+            <li>https://www.ccalliance.org/colorectal-cancer-information/statistics-risk-factors</li>
+            <li>http://www.screenforcoloncancer.org/aboutCRC.asp</li>
+            <li>https://www.ccalliance.org/screening-prevention/screening-methods</li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <div class="item copyright">© GI Associates &amp; Endoscopy Center</div>
+          <a href="https://iddigital.us" class="item made-by-idd">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 29"
+              style="enable-background:new 0 0 100 29;" xml:space="preserve">
+              <g color=white>
+                <rect y="8.1" width="2.9" height="14.4"></rect>
+                <path d="M10.8,8.1H6v14.4h4.6c3.8,0,4.9-2.3,4.9-7.4C15.5,10.8,14.8,8.1,10.8,8.1z M10.2,20.3H8.9V10.2h1.2
+                              c2.2,0,2.5,1.7,2.5,4.9C12.6,19,12.2,20.3,10.2,20.3z"></path>
+                <path class="hover-fill-red" d="M23.3,12.9L23.3,12.9c-0.4-0.9-1.4-1.5-2.4-1.5c-3,0-3.4,3.4-3.4,5.7c0,3.4,1,5.7,3.5,5.7
+                              c1.2,0,2.1-0.8,2.3-1.6h0v1.3H25V8.1h-1.7V12.9z M21.3,21.3c-1.6,0-2-1.7-2-4.2s0.4-4.2,2-4.2c1.8,0,2.2,2.1,2.2,4.2
+                              C23.4,19.5,23.1,21.3,21.3,21.3z"></path>
+                <rect class="hover-fill-red" x="27.3" y="11.7" width="1.7" height="10.8"></rect>
+                <rect class="hover-fill-red" x="27.3" y="8.1" width="1.7" height="1.9"></rect>
+                <path class="hover-fill-red"
+                  d="M36.8,13L36.8,13c-0.3-0.8-1.2-1.7-2.4-1.7c-2.7,0-3.5,2.8-3.5,5.7c0,1.4,0.2,5.4,3.3,5.4
+                              c1.1,0,2.1-0.5,2.4-1.4h0v1.4c0,0.7,0.1,2.4-2.1,2.4c-0.9,0-1.7-0.4-1.7-1.4h-1.7c0.3,2.7,2.9,2.7,3.5,2.7c2.2,0,3.7-1.2,3.7-4.4
+                              V11.7h-1.6V13z M34.7,21c-1.7,0-2-2.2-2-3.9c0-2.6,0.4-4.2,2-4.2c1.8,0,2.2,2.1,2.2,4.2C36.9,19.3,36.5,21,34.7,21z">
+                </path>
+                <rect class="hover-fill-red" x="40.8" y="11.7" width="1.7" height="10.8"></rect>
+                <rect class="hover-fill-red" x="40.8" y="8.1" width="1.7" height="1.9"></rect>
+                <path class="hover-fill-red" d="M47.4,8.5h-1.7v3.1h-1.6V13h1.6v7.4c0,1.4,0.4,2.1,2.2,2.1c0.7,0,1.1-0.1,1.4-0.1v-1.4c-0.2,0-0.4,0.1-0.7,0.1
+                              c-0.9,0-1.1-0.3-1.1-1.2V13h1.9v-1.3h-1.9V8.5z"></path>
+                <path class="hover-fill-red"
+                  d="M57.4,20.5v-6c0-1.1,0-3.1-3.3-3.1c-2.6,0-3.6,1.1-3.6,3.5h1.7v-0.1c0-0.4,0-2.1,1.9-2.1
+                              c1.1,0,1.7,0.6,1.7,1.6c0,0.9,0,1.2-1.2,1.6l-2.3,0.7c-1.4,0.4-2,1.5-2,3c0,1.9,0.9,3.1,2.9,3.1c1,0,2.1-0.6,2.6-1.6h0
+                              c0.1,1.4,0.9,1.4,1.5,1.4c0.4,0,0.9-0.1,1-0.1v-1.2c-0.1,0.1-0.2,0.1-0.4,0.1C57.4,21.4,57.4,20.9,57.4,20.5z M55.7,19.3
+                              c0,1.1-1.1,2.1-2.2,2.1c-1.1,0-1.5-0.8-1.5-1.9c0-0.9,0.3-1.4,0.8-1.7c0.8-0.5,2.3-0.6,2.9-1.3V19.3z"></path>
+                <rect class="hover-fill-red" x="59.8" y="8.1" width="1.7" height="14.4"></rect>
+                <polygon class="hover-fill-red" points="77.6,4.9 77.6,11.2 80.9,14.5 77.6,17.8 77.6,24.1 87.2,14.5">
+                </polygon>
+                <path class="hover-fill-red"
+                  d="M86.5,0.5h-6.5l14,14l-14,14h6.5c8,0,13.5-6.1,13.5-14v-0.1C100,6.5,94.5,0.5,86.5,0.5z"></path>
+                <polygon points="66.9,24.7 74.5,17.1 74.5,11.9 66.9,4.3"></polygon>
+                <polygon points="74.5,8.1 74.5,0.5 66.9,0.5"></polygon>
+                <polygon points="74.5,28.5 74.5,20.9 66.9,28.5"></polygon>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="modal fade" id="appointModal" tabindex="-1" aria-labelledby="appointModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="appointModalLabel">Request An Appointment</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form>
+              <div class="modal-body">
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <label for="first-name" class="col-form-label">First Name</label>
+                    <input type="text" class="form-control" id="first-name" required>
+                  </div>
+                  <div class="col-6">
+                    <label for="last-name" class="col-form-label">Last Name</label>
+                    <input type="text" class="form-control" id="last-name" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <label for="email" class="col-form-label">Email Address</label>
+                    <input type="text" class="form-control" id="email" required>
+                  </div>
+                  <div class="col-6">
+                    <label for="phone-number" class="col-form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phone-number" required>
+                  </div>
+                </div>
+                <div>
+                  <label for="message-text" class="col-form-label-question">Comments or Questions?</label>
+                  <textarea class="form-control" id="message-text" style="height: 200px"></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="appointment-btn submit-btn">
+                  Request Appointment
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 1) {
+        $(".navbar").css("background-color", "#fff");
+        $(".call-phone").css("border", "2px solid #73C6A1");
+        $(".call-phone").css("background-color", "#73C6A1");
+        $(".call-phone").css("color", "#73C6A1");
+        $(".or").css("color", "#666");
+        $(".header-appointment-btn").css("border", "2px solid #73C6A1");
+        $(".header-appointment-btn").css("background-color", "#73C6A1");
+        $('.bi-envelope').css({ fill: "#fff" });
+        $('#logoImage').attr('src', './assets/images/vbg-logo.png');
+        $(".call-phone").hover(function () {
+          $(this).css("color", "#887766");
+        }, function () {
+          $(this).css("color", "#73C6A1");
+        });
+        $(".header-appointment-btn").hover(function () {
+          $(this).css("background-color", "#73C6A1");
+          $(this).css("border", "2px solid #73C6A1");
+        }, function () {
+          $(this).css("background-color", "#73C6A1");
+          $(this).css("border", "2px solid #73C6A1");
+        });
+      } else {
+        $(".navbar").css("background-color", "transparent");
+        $(".call-phone").css("border", "2px solid #fff");
+        $(".call-phone").css("background-color", "transparent");
+        $(".call-phone").css("color", "#fff");
+        $(".or").css("color", "#fff");
+        $(".header-appointment-btn").css("border", "2px solid #fff");
+        $(".header-appointment-btn").css("background-color", "transparent");
+        $(".call-phone").hover(function () {
+          $(this).css("color", "#73C6A1");
+        }, function () {
+          $(this).css("color", "#fff");
+        });
+        $(".header-appointment-btn").hover(function () {
+          $(this).css("background-color", "#73C6A1");
+          $(this).css("border", "2px solid #73C6A1");
+        }, function () {
+          $(this).css("background-color", "transparent");
+          $(this).css("border", "2px solid #fff");
+        });
+        $('#logoImage').attr('src', './assets/images/vbg-logo-white.png');
+      }
+    });
+  </script>
+</body>
+
+</html>
